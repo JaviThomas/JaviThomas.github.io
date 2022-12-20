@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBookSkull} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBookSkull } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { projects } from "../listOfProjects";
 
@@ -8,11 +8,17 @@ export default function Projects() {
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-5 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-10">
-        <a href="#projects" >
-          <FontAwesomeIcon icon={faBookSkull} className="container mx-auto flex py-10 md:flex-row items-center sm:text-7xl text-5xl font-medium title-font text-white"/>
-        </a>
-          <h1 id="typewriter" className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Some Side Hustles 😉
+          <a href="#projects">
+            <FontAwesomeIcon
+              icon={faBookSkull}
+              className="container mx-auto flex py-10 md:flex-row items-center sm:text-7xl text-5xl font-medium title-font text-white"
+            />
+          </a>
+          <h1
+            id="typewriter"
+            className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white"
+          >
+            Additional Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Done for either educational or personal growth (and fun).
@@ -24,7 +30,8 @@ export default function Projects() {
               href={project.link}
               key={project.image}
               target="_blank"
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -45,14 +52,14 @@ export default function Projects() {
           ))}
         </div>
         <div className="flex justify-center py-10">
-          
           <a
-            href="https://github.com/hannad4?tab=repositories"
+            href="https://github.com/JaviThomas?tab=repositories"
             target="_blank"
-            className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg scroll-smooth">              
+            className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg scroll-smooth"
+          >
             &nbsp;View more on GitHub
           </a>
-        </div>  
+        </div>
         {/* <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
