@@ -1,7 +1,7 @@
 {
   "name": "new-website",
   "version": "0.1.0",
-  "homepage": "https://javithomas.github.io",
+  "homepage": "https://JaviThomas.github.io",
   "private": true,
   "dependencies": {
     "@coreui/react": "^4.3.1",
