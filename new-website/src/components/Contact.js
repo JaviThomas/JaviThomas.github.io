@@ -29,7 +29,7 @@ export default function Contact() {
             id="typewriter"
             className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white"
           >
-            Connect With Me
+            Connect With Me!
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed mb-10 text-base">
             Find me at the following links

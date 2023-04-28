@@ -26,9 +26,9 @@ export default function About() {
             <a
               href="https://drive.google.com/file/d/1fQ_J2xU-Axjr2WqkLcVIeS31xk2ebyJy/view"
               target="_blank"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-white-400 bg-purple-800 border-0 py-2 px-6 focus:outline-none hover:bg-white-700 hover:text-white rounded text-lg"
             >
-              Check out my Master Resume
+              Check out my Master Resume*
             </a>
           </div>
         </div>
