@@ -1,14 +1,12 @@
-
 @tailwind base;
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: mandatory; 
+  scroll-snap-type: mandatory;
+  background-color: #e9ebe5;
 }
-
 
 @tailwind components;
 @tailwind utilities;
-
 
 body {
   margin: 0;
@@ -17,6 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {

@@ -4,7 +4,7 @@ import { faBusinessTime } from "@fortawesome/free-solid-svg-icons";
 
 export default function Work() {
   return (
-    <section id="work" className="text-gray-400 bg-gray-900 body-font">
+    <section id="work" className="relative text-white" >
       <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="flex flex-col w-full mb-10">
           <div className="flex flex-col w-full mb-10">
@@ -23,6 +23,33 @@ export default function Work() {
           </div>
 
           <ol class="relative border-l border-gray-200 dark:border-gray-700">
+          
+          <li class="ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-fuchsia-800 dark:text-fuchsia-500">
+                Oct 2023 - Present
+              </time>
+              <h3 class="text-lg font-semibold text-gray-500 dark:text-gray-400 py-2.5">
+                Application Systems Engineer II | Allvue Systems
+              </h3>
+              <ul class="list-disc px-4">
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Responsible for managing client facing tickets, doing investigation into issues.
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Trained on FO solution as well as Allvue IA solution utilization and diagnosis.
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Managed over 25 tickets at one time while keeping constant client communication and working investigation into issue cause and resolutions.
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Lead Support team in training and exploration of GPT NLP model for improved documentation, client response, and faster overall workflows.
+                </li>
+                <li class="text-base font-normal text-gray-500 dark:text-gray-400 py-2.5">
+                  Assisted in client transitions, and integration of new functionality and product updates.
+                </li>
+              </ul>
+            </li>
             <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time class="mb-1 text-sm font-normal leading-none text-fuchsia-800 dark:text-fuchsia-500">

@@ -16,7 +16,7 @@ import {
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="relative text-white">
       <div className="container px-5 py-5 mx-auto lg:px-40">
         <div className="container px-5 mx-auto text-center lg:px-40">
           <a href="#contact">

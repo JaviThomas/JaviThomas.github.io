@@ -17,7 +17,7 @@ export default function Footer() {
     </CLink>
 
     <br></br>
-    <span>Created with ReactJS, Tailwind, and FontAwesome</span>
+    <span style={{color: '#333333'}}>Created with ReactJS, Tailwind, and FontAwesome</span>
 
   </div>
 </CFooter>
